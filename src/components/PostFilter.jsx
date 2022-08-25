@@ -1,6 +1,6 @@
 import React from 'react'
 import MyInput from './UI/input/MyInput'
-import MySelect from './UI/select/MySelect'
+import MySelect from './select/MySelect'
 
 
 const PostFilter = ({ filter, setFilter }) => {
@@ -19,7 +19,8 @@ const PostFilter = ({ filter, setFilter }) => {
                     { value: 'title', name: 'By title' },
                     { value: 'body', name: 'By description' }
                 ]}
-            /></div>
+            />
+        </div>
     )
 }
 
